@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='catalog.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">My List</h1>
+        {% for item in wishlist %}
+            <div class="video-item">
+                <h2>{{ item.title }}</h2>
+                <p>{{ item.description }}</p>
+                <video controls width="300">
+                    <source src="{{ url_for('static', filename=item.file_path) }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

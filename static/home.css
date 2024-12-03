@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    color: red;
+    font-size: 250px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: darkred;
+}

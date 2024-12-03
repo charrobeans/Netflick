@@ -1,0 +1,5 @@
+2024-12-03 11:40:44,462 - INFO - Successful login: eflo13
+2024-12-03 11:40:55,759 - DEBUG - This is a normal debug log.
+2024-12-03 11:40:55,760 - WARNING - MALICIOUS: Suspicious IP detected.
+2024-12-03 11:40:55,760 - ERROR - Database connection failed.
+2024-12-03 11:40:55,760 - CRITICAL - CRITICAL: System breach detected.

@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: darkred;
+}
+
+.title {
+    font-size: 48px;
+    color: red;
+    margin-bottom: 20px;
+}

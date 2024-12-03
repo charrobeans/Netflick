@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'profile.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="profile-container">
+        <!-- Profile Picture -->
+        <img src="/static/images/netflix-icon.jpg" alt="Profile Picture" class="profile-pic">
+        
+        <!-- Username -->
+        <h1 class="username">Welcome, {{ username }}</h1>
+
+        <!-- Links to Video Catalog and Wishlist -->
+        <a href="{{ url_for('catalog') }}" class="catalog-link">Browse Video Catalog</a>
+        <a href="{{ url_for('wishlist') }}" class="wishlist-link">View My List</a>
+        
+        <!-- Logout Button -->
+        <a href="{{ url_for('logout') }}" class="logout-button">Logout</a>
+    </div>
+</body>
+</html>

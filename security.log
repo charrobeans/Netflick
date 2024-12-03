@@ -1,0 +1,22 @@
+2024-12-03 11:39:45,941 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-03 11:39:45,942 - INFO - [33mPress CTRL+C to quit[0m
+2024-12-03 11:39:45,954 - INFO -  * Restarting with watchdog (fsevents)
+2024-12-03 11:39:46,247 - WARNING -  * Debugger is active!
+2024-12-03 11:39:46,263 - INFO -  * Debugger PIN: 447-328-806
+2024-12-03 11:40:08,937 - INFO - 127.0.0.1 - - [03/Dec/2024 11:40:08] "GET / HTTP/1.1" 200 -
+2024-12-03 11:40:08,952 - INFO - 127.0.0.1 - - [03/Dec/2024 11:40:08] "[36mGET /static/home.css HTTP/1.1[0m" 304 -
+2024-12-03 11:40:10,782 - INFO - 127.0.0.1 - - [03/Dec/2024 11:40:10] "GET /register HTTP/1.1" 200 -
+2024-12-03 11:40:10,792 - INFO - 127.0.0.1 - - [03/Dec/2024 11:40:10] "[36mGET /static/register.css HTTP/1.1[0m" 304 -
+2024-12-03 11:40:34,839 - INFO - 127.0.0.1 - - [03/Dec/2024 11:40:34] "[32mPOST /register HTTP/1.1[0m" 302 -
+2024-12-03 11:40:34,854 - INFO - 127.0.0.1 - - [03/Dec/2024 11:40:34] "GET /login HTTP/1.1" 200 -
+2024-12-03 11:40:34,867 - INFO - 127.0.0.1 - - [03/Dec/2024 11:40:34] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2024-12-03 11:40:44,462 - INFO - Successful login: eflo13
+2024-12-03 11:40:44,463 - INFO - 127.0.0.1 - - [03/Dec/2024 11:40:44] "[32mPOST /login HTTP/1.1[0m" 302 -
+2024-12-03 11:40:44,476 - INFO - 127.0.0.1 - - [03/Dec/2024 11:40:44] "GET /profile HTTP/1.1" 200 -
+2024-12-03 11:40:44,494 - INFO - 127.0.0.1 - - [03/Dec/2024 11:40:44] "[36mGET /static/images/netflix-icon.jpg HTTP/1.1[0m" 304 -
+2024-12-03 11:40:44,495 - INFO - 127.0.0.1 - - [03/Dec/2024 11:40:44] "[36mGET /static/profile.css HTTP/1.1[0m" 304 -
+2024-12-03 11:40:55,759 - DEBUG - This is a normal debug log.
+2024-12-03 11:40:55,760 - WARNING - MALICIOUS: Suspicious IP detected.
+2024-12-03 11:40:55,760 - ERROR - Database connection failed.
+2024-12-03 11:40:55,760 - CRITICAL - CRITICAL: System breach detected.

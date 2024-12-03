@@ -1,0 +1,44 @@
+/* catalog.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    color: #e50914;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.video-item {
+    margin: 20px auto;
+    max-width: 500px;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.video-item h2 {
+    font-size: 1.5em;
+    color: #e50914;
+}
+
+.video-item p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+video {
+    width: 100%;
+    border-radius: 5px;
+}

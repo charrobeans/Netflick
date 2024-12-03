@@ -1,0 +1,50 @@
+body {
+    background-color: #141414;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Profile container styling */
+.profile-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+}
+
+/* Profile picture styling (square) */
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Username styling */
+.username {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Link styling */
+.catalog-link, .wishlist-link, .logout-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    margin: 5px;
+}
+
+.catalog-link:hover, .wishlist-link:hover, .logout-button:hover {
+    background-color: #f40612;
+}
